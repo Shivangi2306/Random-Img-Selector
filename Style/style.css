@@ -1,0 +1,31 @@
+#outerFlowers{
+	width: 400px;
+	height: 400px;
+}	
+
+.innerFlowers{
+	width: 200px;
+	height: 200px;
+}
+
+#outerFlowerDiv{
+
+	display: inline-block;
+	width: 300px;
+	height: 300px;
+	margin-left: 20%;
+	//float: left;
+	
+
+}
+
+#innerFlowerDiv{
+
+	display: inline-table;
+	width: 50%;
+	height:50%;
+	margin: 5% 2.5%;
+	float: right;
+	    
+
+}

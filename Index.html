@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Random Image Generator</title>
+	<link rel="stylesheet" type="text/css" href="Style/style.css">
+</head>
+<body>
+<div id="outerFlowerDiv">
+<img src="Images/1.jpg" id="outerFlowers">
+</div>
+<div id="innerFlowerDiv">
+
+<img src="Images/1.jpg" onclick="imageChanger(this)" id="image1" class="innerFlowers">
+<img src="Images/2.jpg" onclick="imageChanger(this)" id="image2" class="innerFlowers">
+<img src="Images/3.jpg" onclick="imageChanger(this)" id="image3" class="innerFlowers">
+<img src="Images/4.jpg" onclick="imageChanger(this)" id="image4" class="innerFlowers">
+</div>
+
+<script >
+	var i1=document.getElementById("outerFlowers");
+	var i2=document.getElementsByClassName("innerFlowers");
+	function imageChanger(i2)
+	{
+        i1.src=i2.src;
+        //i1.style=i2.style;
+	}
+
+
+</script>
+</body>
+</html>
